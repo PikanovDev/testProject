@@ -6,13 +6,13 @@ import com.company.Home_work.Galaxy.repository.Satellite;
 import com.company.Home_work.Galaxy.repository.Star;
 import com.company.Home_work.Galaxy.repository.StarSytem;
 
-public class ControllerStart {
+public class ControllerStar {
 
     private View view;
 
     private StarSytem starSytem;
 
-    public ControllerStart(View view) {
+    public ControllerStar(View view) {
         this.view = view;
         Star star1 = new Star(01L, "Sun");
         Planet earth = new Planet(1L, "earth");
